@@ -15,7 +15,7 @@ fi
 
 # create a new .envrc for the user
 cat <<NEW_ENVRC > .envrc
-log Loading environment "$env_name"
+echo "Loading environment "$env_name""
 dotenv "$env_file"
 NEW_ENVRC
 # allow the execution
