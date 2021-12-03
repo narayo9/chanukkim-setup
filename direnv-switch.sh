@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# https://github.com/direnv/direnv/issues/544 
+# NOTE: bashrc에 alias 등록 후 사용
+# alias direnv-switch="~/.../chanukkim-setup/direnv-switch.sh"
+# 참고: https://github.com/direnv/direnv/issues/544 
 # Usage: direnv-switch <env-name>
 set -euo pipefail
 
